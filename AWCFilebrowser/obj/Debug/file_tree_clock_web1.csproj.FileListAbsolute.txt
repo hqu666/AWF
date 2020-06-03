@@ -1,0 +1,11 @@
+C:\Users\博臣\source\repos\file_tree_clock_web1\file_tree_clock_web1\bin\Debug\file_tree_clock_web1.exe.config
+C:\Users\博臣\source\repos\file_tree_clock_web1\file_tree_clock_web1\bin\Debug\file_tree_clock_web1.exe
+C:\Users\博臣\source\repos\file_tree_clock_web1\file_tree_clock_web1\bin\Debug\file_tree_clock_web1.pdb
+C:\Users\博臣\source\repos\file_tree_clock_web1\file_tree_clock_web1\obj\Debug\file_tree_clock_web1.csprojResolveAssemblyReference.cache
+C:\Users\博臣\source\repos\file_tree_clock_web1\file_tree_clock_web1\obj\Debug\file_tree_clock_web1.Form1.resources
+C:\Users\博臣\source\repos\file_tree_clock_web1\file_tree_clock_web1\obj\Debug\file_tree_clock_web1.InputDialog.resources
+C:\Users\博臣\source\repos\file_tree_clock_web1\file_tree_clock_web1\obj\Debug\file_tree_clock_web1.Properties.Resources.resources
+C:\Users\博臣\source\repos\file_tree_clock_web1\file_tree_clock_web1\obj\Debug\file_tree_clock_web1.csproj.GenerateResource.Cache
+C:\Users\博臣\source\repos\file_tree_clock_web1\file_tree_clock_web1\obj\Debug\file_tree_clock_web1.csproj.CoreCompileInputs.cache
+C:\Users\博臣\source\repos\file_tree_clock_web1\file_tree_clock_web1\obj\Debug\file_tree_clock_web1.exe
+C:\Users\博臣\source\repos\file_tree_clock_web1\file_tree_clock_web1\obj\Debug\file_tree_clock_web1.pdb

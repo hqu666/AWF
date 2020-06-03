@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AWSFileBroeser.exe" version="1.2.0.2" publicKeyToken="b0d714035833f7ed" language="ja" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="awcfb_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AWSFileBroeser" version="1.1.0.0" publicKeyToken="21CA97ADCE7D9C3B" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AWSFileBroeser.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC マニフェスト オプション
+         Windows のユーザー アカウント制御のレベルを変更するには、
+         requestedExecutionLevel ノードを以下のいずれかで置換します。
+
+       <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+       <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+       <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        下位互換性を保つためにファイルおよびレジストリの仮想化を使用する場合、
+        requestedExecutionLevel ノードを削除します。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AWSFileBroeser.exe" size="118160">
+      <assemblyIdentity name="AWSFileBroeser" version="1.1.0.0" publicKeyToken="21CA97ADCE7D9C3B" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>U68SRo5uFAUnYo1OYffWn0ir0r+PCsGrrflxkfceOgc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="awcfb_icon.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>azu/upfeJVabeXoRzI9UotIxTagrv3EYU0JLdYZ383c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="AWSFileBroeser.exe.config" size="306">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8pk9qTOLmGBLCcSTlD9fTkqGvp78v+A79NrBM/nOPvU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="fladance.swf" size="27440">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4Mf1ZoGFtNmzblI4QxCeaIQ9zNZLlxiFdR6v9kMAUec=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PAPA\博臣" issuerKeyHash="f4252864f52f637d72f931f0f63580aa78443ec1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>6ZaryqP9kCU8K2+60PUzNhip5wT/ge2dnhHIBQwsKnY=</DigestValue></Reference></SignedInfo><SignatureValue>Zz63vZaXkEA3K+FgvDOpfyP6kvVObY6KOfJDfBXQuGGrlbGDKcmvp8+O65ymX6jbJx7VCQDqltpiFeLPRhosovJsrViQDMBj8Vw5O+rzlnj1p7HfDVxg+yMFD3VHCZfp1vmmcR3Fnz8Y5vnVJ9Bfz3/3orHrBWAdszTMFPInZWU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nOLltXJgHTEV3PqA33/U3KbV6odbGZPsMxTK87mxz7qAc88UtEQhk4AG62nS49GHB3bFZqJa63riY1CfITb2pgfpKFCytW1D/XjvOhnLN2FwVC3AzoFI+2cIQmctAfAErC2KPYe4ctFIqFu0EmmRAu4SLMwc2n0GFMOrNHrxZBE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="762a2c0c05c8119e9ded81ff04e7a9183633f5d0ba6f2b3c2590fda3caab96e9" Description="" Url=""><as:assemblyIdentity name="AWSFileBroeser.exe" version="1.2.0.2" publicKeyToken="b0d714035833f7ed" language="ja" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PAPA\博臣</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>DAo0OWA5L4r4fP3UFzvV4FM89O92xUjQLinuha5bcV8=</DigestValue></Reference></SignedInfo><SignatureValue>GZEFDsVte4BcUZpk99ReUOBxMFgkMIjVBGCqCsuMmWEKfMQRrHFMamrEhBBz8VzivLN20S+v+YT+e9OJDNuq7qGqSUU0tGCNVZI5gyPZlVidyti+XCheeTWJ/yUr94G+caJHvSpBObYqW9twJk2tu8ViRTnCCRkCZfGYOmjQeQ0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nOLltXJgHTEV3PqA33/U3KbV6odbGZPsMxTK87mxz7qAc88UtEQhk4AG62nS49GHB3bFZqJa63riY1CfITb2pgfpKFCytW1D/XjvOhnLN2FwVC3AzoFI+2cIQmctAfAErC2KPYe4ctFIqFu0EmmRAu4SLMwc2n0GFMOrNHrxZBE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBtTCCAR6gAwIBAgIQXE6G9LblZZlKS8bSTIrTVzANBgkqhkiG9w0BAQsFADAZMRcwFQYDVQQDHg4AUABBAFAAQQBcU1qB4zAeFw0xNzA4MjkwNzU2MzVaFw0xODA4MjkxMzU2MzVaMBkxFzAVBgNVBAMeDgBQAEEAUABBAFxTWoHjMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCc4uW1cmAdMRXc+oDff9TcptXqh1sZk+wzFMrzubHPuoBzzxS0RCGTgAbradLj0YcHdsVmolrreuJjUJ8hNvamB+koULK1bUP9eO86Gcs3YXBULcDOgUj7ZwhCZy0B8ASsLYo9h7hy0UioW7QSaZEC7hIszBzafQYUw6s0evFkEQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAECqyHxbMvqscCk4+jvHak55bzCifViT/Rwbj1yYF/tJZVc9xCU0uQ/6QMBtiHh4mH5XEXZx4VCOtKrqcn4tKKBYdtLSgZ+zemuDSQeD9lsW2B2kobktGhsSF43dt8ETchhU9hP6JZePlnlPnpYHV1jdBLXALHio2gfe2Z4eqDGA</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
